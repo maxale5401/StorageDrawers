@@ -2,19 +2,19 @@ itemGroup.storageDrawers=Storage Drawers
 
 # Items
 item.upgradeTemplate.name=Plantilla de Mejora
-item.upgrade.iron.name=Mejora para Cajonera (II)
-item.upgrade.gold.name=Mejora para Cajonera (III)
-item.upgrade.obsidian.name=Mejora para Cajonera (IV)
-item.upgrade.diamond.name=Mejora para Cajonera (V)
-item.upgrade.emerald.name=Mejora para Cajonera (VI)
+item.upgrade.iron.name=Mejora para Cajonera (Hierro)
+item.upgrade.gold.name=Mejora para Cajonera (Oro)
+item.upgrade.obsidian.name=Mejora para Cajonera (Obsidiana)
+item.upgrade.diamond.name=Mejora para Cajonera (Diamante)
+item.upgrade.emerald.name=Mejora para Cajonera (Esmeralda)
 item.upgradeStatus.level1.name=Status Mejora (I)
 item.upgradeStatus.level1.description=Muestra que el cajón está lleno
 item.upgradeStatus.level2.name=Status Mejora (II)
 item.upgradeStatus.level2.description=Muestra que el cajón está casi lleno
 item.upgradeStatus.level3.name=Status Mejora (III)
 item.upgradeStatus.level3.description=Muestra el nivel de llenado
-item.upgradeLock.name=Lock Upgrade
-item.upgradeLock.description=Keep associated items when empty
+item.upgradeLock.name=Mejora de bloqueo
+item.upgradeLock.description=Mantiene los items selectionados cuando se vacia
 
 # Blocks
 tile.fullDrawers2.oak.name=Cajonera de Roble 1x2
@@ -54,7 +54,7 @@ storageDrawers.upgrade.description=Multiplica la capacidad por %d
 storageDrawers.waila.empty=Vacía
 storageDrawers.waila.level=Nivel de mejora: %s
 storageDrawers.waila.drawer=Cajonera #%s: %s
-storageDrawers.waila.locked=Locked
+storageDrawers.waila.locked=Bloqueada
 
 # Configuration
 storageDrawers.config.title=Configuración de Storage Drawers
@@ -84,7 +84,7 @@ storageDrawers.config.prop.itemRenderType=Tipo de renderizado de los ítems
 storageDrawers.config.prop.itemRenderType.tooltip=Renderiza los ítems en 3D o plano. 
 storageDrawers.config.prop.enableIndicatorUpgrades=Permitir los indicadores de estado.
 storageDrawers.config.prop.enableStorageUpgrades=Permite las mejoras de capacidad.
-storageDrawers.config.prop.enableLockUpgrades=Enable Lock Upgrade
+storageDrawers.config.prop.enableLockUpgrades=Habilitar la mejora de bloqueo
 storageDrawers.config.prop.renderStorageUpgrades=Renderiza las mejoras de capacidad.
 storageDrawers.config.prop.creativeTabVanillaWoods=Maderas de Minecraft normal en modo creativo
 storageDrawers.config.prop.creativeTabVanillaWoods.tooltip=Permite todos los tipos de madera de Minecraft normal en creativo.
@@ -94,13 +94,13 @@ storageDrawers.config.prop.baseStorage=Capacidad básica.
 storageDrawers.config.prop.baseStorage.tooltip=Número de stacks permitidos en cada cajón.
 storageDrawers.config.prop.recipeOutput=Resultado de la Receta
 storageDrawers.config.prop.recipeOutput.tooltip=Número de ítems por cada crafteo.
-storageDrawers.config.prop.enableSidedInput=Enable Sided Input
-storageDrawers.config.prop.enableSidedInput.tooltip=Other blocks can insert items into drawers.
-storageDrawers.config.prop.enableSidedOutput=Enable Sided Output
-storageDrawers.config.prop.enableSidedOutput.tooltip=Other blocks can extract items from drawers.
+storageDrawers.config.prop.enableSidedInput=Habilitar entrada cara diferencial
+storageDrawers.config.prop.enableSidedInput.tooltip=Otros bloques en el mundo pueden insertar al cajon
+storageDrawers.config.prop.enableSidedOutput=Habilitar extracion cara diferencial
+storageDrawers.config.prop.enableSidedOutput.tooltip=Otros bloques en el mundo pueden extraer deste cajon
 
 storageDrawers.config.integration=Integration
-storageDrawers.config.integration.tooltip=Configure integration with other mods.
+storageDrawers.config.integration.tooltip=
 
 storageDrawers.config.integration.enableAE2=Enable Applied Energistics 2 Integration
 storageDrawers.config.integration.enableWaila=Enable WAILA Integration
